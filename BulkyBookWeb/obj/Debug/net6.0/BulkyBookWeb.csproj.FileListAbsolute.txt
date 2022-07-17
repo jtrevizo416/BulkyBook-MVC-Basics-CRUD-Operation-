@@ -551,3 +551,7 @@ C:\Users\ToastGhost\source\repos\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\Microso
 C:\Users\ToastGhost\source\repos\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll
 C:\Users\ToastGhost\source\repos\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\ToastGhost\source\repos\BulkyBook\BulkyBookWeb\obj\Debug\net6.0\BulkyBookWeb.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ToastGhost\source\repos\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\BulkyBook.DataAccess.dll
+C:\Users\ToastGhost\source\repos\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\BulkyBook.Models.dll
+C:\Users\ToastGhost\source\repos\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\BulkyBook.DataAccess.pdb
+C:\Users\ToastGhost\source\repos\BulkyBook\BulkyBookWeb\bin\Debug\net6.0\BulkyBook.Models.pdb

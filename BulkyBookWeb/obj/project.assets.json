@@ -3143,6 +3143,32 @@
         "dependencies": {
           "jQuery": "1.6.3"
         }
+      },
+      "BulkyBook.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "BulkyBook.Models": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "6.0.7",
+          "Microsoft.EntityFrameworkCore.Relational": "6.0.7",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.7"
+        },
+        "compile": {
+          "bin/placeholder/BulkyBook.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BulkyBook.DataAccess.dll": {}
+        }
+      },
+      "BulkyBook.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/BulkyBook.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BulkyBook.Models.dll": {}
+        }
       }
     }
   },
@@ -9693,10 +9719,21 @@
         "toastr.2.1.1.nupkg.sha512",
         "toastr.nuspec"
       ]
+    },
+    "BulkyBook.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../BulkyBook.DataAccess/BulkyBook.DataAccess.csproj",
+      "msbuildProject": "../BulkyBook.DataAccess/BulkyBook.DataAccess.csproj"
+    },
+    "BulkyBook.Models/1.0.0": {
+      "type": "project",
+      "path": "../BulkyBook.Models/BulkyBook.Models.csproj",
+      "msbuildProject": "../BulkyBook.Models/BulkyBook.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "BulkyBook.DataAccess >= 1.0.0",
       "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation >= 6.0.7",
       "Microsoft.EntityFrameworkCore >= 6.0.7",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.7",
@@ -9739,7 +9776,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\ToastGhost\\source\\repos\\BulkyBook\\BulkyBook.DataAccess\\BulkyBook.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\ToastGhost\\source\\repos\\BulkyBook\\BulkyBook.DataAccess\\BulkyBook.DataAccess.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
